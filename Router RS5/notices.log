@@ -1,0 +1,49 @@
+Apr 27 12:53:38.000 [notice] Tor 0.2.7.6 (git-605ae665009853bd) opening new log file.
+Apr 27 12:53:38.070 [notice] Tor v0.2.7.6 (git-605ae665009853bd) running on Linux with Libevent 2.0.21-stable, OpenSSL 1.0.2g and Zlib 1.2.8.
+Apr 27 12:53:38.070 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning
+Apr 27 12:53:38.070 [notice] Read configuration file "/etc/tor/torrc".
+Apr 27 12:53:38.078 [notice] Your ContactInfo config option is not set. Please consider setting it, so we can contact you if your server is misconfigured or something else goes wrong.
+Apr 27 12:53:38.078 [notice] Based on detected system memory, MaxMemInQueues is set to 2896 MB. You can override this by setting MaxMemInQueues by hand.
+Apr 27 12:53:38.078 [warn] Tor is running as an exit relay with the default exit policy. If you did not want this behavior, please set the ExitRelay option to 0. If you do want to run an exit Relay, please set the ExitRelay option to 1 to disable this warning, and for forward compatibility.
+Apr 27 12:53:38.078 [warn] In a future version of Tor, ExitRelay 0 may become the default when no ExitPolicy is given.
+Apr 27 12:53:38.078 [warn] You have used DirAuthority or AlternateDirAuthority to specify alternate directory authorities in your configuration. This is potentially dangerous: it can make you look different from all other Tor users, and hurt your anonymity. Even if you've specified the same authorities as Tor uses by default, the defaults could change in the future. Be sure you know what you're doing.
+Apr 27 12:53:38.078 [warn] V3AuthVotingInterval is very low. This may lead to failure to synchronise for a consensus.
+Apr 27 12:53:38.078 [warn] TestingTorNetwork is set. This will make your node almost unusable in the public Tor network, and is therefore only advised if you are building a testing Tor network!
+Apr 27 12:53:38.079 [notice] Opening OR listener on 0.0.0.0:5000
+Apr 27 12:53:38.000 [warn] Your log may contain sensitive information - you disabled SafeLogging, and you're logging more than "notice". Don't log unless it serves an important reason. Overwrite the log afterwards.
+Apr 27 12:53:38.000 [notice] Not disabling debugger attaching for unprivileged users.
+Apr 27 12:53:38.000 [notice] Parsing GEOIP IPv4 file /usr/share/tor/geoip.
+Apr 27 12:53:38.000 [notice] Parsing GEOIP IPv6 file /usr/share/tor/geoip6.
+Apr 27 12:53:38.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Apr 27 12:53:38.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Apr 27 12:53:38.000 [notice] Your Tor server's identity key fingerprint is 'RS5 CE6D4BD38D8B4B10316724116B027ACEB0FF6E75'
+Apr 27 12:53:38.000 [notice] Bootstrapped 0%: Starting
+Apr 27 12:53:39.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+Apr 27 12:53:39.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+Apr 27 12:53:39.000 [notice] Updating address for directory authority RS4 from 192.168.32.61:7000 to 192.168.1.4:7000 based on certificate.
+Apr 27 12:53:39.000 [notice] Bootstrapped 45%: Asking for relay descriptors
+Apr 27 12:53:39.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more descriptors: we have 0/3, and can only build 0% of likely paths. (We have 0% of guards bw, 0% of midpoint bw, and 0% of exit bw = 0% of path bw.)
+Apr 27 12:53:39.000 [notice] Bootstrapped 50%: Loading relay descriptors
+Apr 27 12:53:39.000 [notice] Bootstrapped 80%: Connecting to the Tor network
+Apr 27 12:53:40.000 [notice] Bootstrapped 85%: Finishing handshake with first hop
+Apr 27 12:53:40.000 [notice] Bootstrapped 90%: Establishing a Tor circuit
+Apr 27 12:53:40.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Apr 27 12:53:40.000 [notice] Bootstrapped 100%: Done
+Apr 27 12:54:40.000 [notice] Performing bandwidth self-test...done.
+Apr 27 12:55:57.000 [notice] Our directory information is no longer up-to-date enough to build circuits: We need more descriptors: we have 3/4, and can only build 33% of likely paths. (We have 66% of guards bw, 75% of midpoint bw, and 66% of exit bw = 33% of path bw.)
+Apr 27 12:55:57.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more descriptors: we have 3/4, and can only build 33% of likely paths. (We have 66% of guards bw, 75% of midpoint bw, and 66% of exit bw = 33% of path bw.)
+Apr 27 12:55:57.000 [notice] We now have enough directory information to build circuits.
+Apr 27 12:56:42.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Apr 27 12:56:42.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Apr 27 13:02:27.000 [notice] Self-testing indicates your ORPort is reachable from the outside. Excellent. Publishing server descriptor.
+Apr 27 13:11:23.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:16:00.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:22:06.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:25:09.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:30:14.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:33:17.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:37:31.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:39:33.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:40:34.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:41:35.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:45:49.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.

@@ -1,0 +1,312 @@
+Apr 27 12:14:41.000 [notice] Tor 0.2.7.6 (git-605ae665009853bd) opening new log file.
+Apr 27 12:14:41.000 [warn] Can't log to stderr with RunAsDaemon set; skipping stdout
+Apr 27 12:14:41.134 [notice] Tor v0.2.7.6 (git-605ae665009853bd) running on Linux with Libevent 2.0.21-stable, OpenSSL 1.0.2g and Zlib 1.2.8.
+Apr 27 12:14:41.134 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning
+Apr 27 12:14:41.134 [notice] Read configuration file "/etc/tor/torrc".
+Apr 27 12:14:41.137 [notice] Your ContactInfo config option is not set. Please consider setting it, so we can contact you if your server is misconfigured or something else goes wrong.
+Apr 27 12:14:41.138 [notice] Based on detected system memory, MaxMemInQueues is set to 2896 MB. You can override this by setting MaxMemInQueues by hand.
+Apr 27 12:14:41.138 [warn] Tor is running as an exit relay with the default exit policy. If you did not want this behavior, please set the ExitRelay option to 0. If you do want to run an exit Relay, please set the ExitRelay option to 1 to disable this warning, and for forward compatibility.
+Apr 27 12:14:41.138 [warn] In a future version of Tor, ExitRelay 0 may become the default when no ExitPolicy is given.
+Apr 27 12:14:41.138 [warn] You have used DirAuthority or AlternateDirAuthority to specify alternate directory authorities in your configuration. This is potentially dangerous: it can make you look different from all other Tor users, and hurt your anonymity. Even if you've specified the same authorities as Tor uses by default, the defaults could change in the future. Be sure you know what you're doing.
+Apr 27 12:14:41.138 [warn] V3AuthVotingInterval is very low. This may lead to failure to synchronise for a consensus.
+Apr 27 12:14:41.138 [warn] TestingTorNetwork is set. This will make your node almost unusable in the public Tor network, and is therefore only advised if you are building a testing Tor network!
+Apr 27 12:14:41.139 [notice] Opening OR listener on 0.0.0.0:5000
+Apr 27 12:14:41.000 [warn] Can't log to stderr with RunAsDaemon set; skipping stdout
+Apr 27 12:14:41.000 [warn] Your log may contain sensitive information - you disabled SafeLogging, and you're logging more than "notice". Don't log unless it serves an important reason. Overwrite the log afterwards.
+Apr 27 12:14:41.000 [notice] Not disabling debugger attaching for unprivileged users.
+Apr 27 12:14:41.000 [notice] Parsing GEOIP IPv4 file /usr/share/tor/geoip.
+Apr 27 12:14:41.000 [notice] Parsing GEOIP IPv6 file /usr/share/tor/geoip6.
+Apr 27 12:14:41.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Apr 27 12:14:41.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Apr 27 12:14:41.000 [notice] Your Tor server's identity key fingerprint is 'RS2 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90'
+Apr 27 12:14:41.000 [notice] Bootstrapped 0%: Starting
+Apr 27 12:14:42.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:14:42.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:14:48.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:14:48.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:15:04.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:15:04.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:15:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:15:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:16:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:16:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:17:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:17:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:18:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:18:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:19:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:19:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:20:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:20:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:21:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:21:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:22:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:22:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:23:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:23:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:24:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:24:34.000 [warn] Received http status code 404 ("Consensus not signed by sufficient number of requested authorities") from server '192.168.32.61:7000' while fetching consensus directory.
+Apr 27 12:25:22.000 [notice] Catching signal TERM, exiting cleanly.
+Apr 27 12:25:26.000 [notice] Tor 0.2.7.6 (git-605ae665009853bd) opening log file.
+Apr 27 12:25:26.000 [warn] Can't log to stderr with RunAsDaemon set; skipping stdout
+Apr 27 12:25:26.333 [notice] Tor v0.2.7.6 (git-605ae665009853bd) running on Linux with Libevent 2.0.21-stable, OpenSSL 1.0.2g and Zlib 1.2.8.
+Apr 27 12:25:26.333 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning
+Apr 27 12:25:26.333 [notice] Read configuration file "/etc/tor/torrc".
+Apr 27 12:25:26.336 [notice] Your ContactInfo config option is not set. Please consider setting it, so we can contact you if your server is misconfigured or something else goes wrong.
+Apr 27 12:25:26.336 [notice] Based on detected system memory, MaxMemInQueues is set to 2896 MB. You can override this by setting MaxMemInQueues by hand.
+Apr 27 12:25:26.336 [warn] Tor is running as an exit relay with the default exit policy. If you did not want this behavior, please set the ExitRelay option to 0. If you do want to run an exit Relay, please set the ExitRelay option to 1 to disable this warning, and for forward compatibility.
+Apr 27 12:25:26.336 [warn] In a future version of Tor, ExitRelay 0 may become the default when no ExitPolicy is given.
+Apr 27 12:25:26.336 [warn] You have used DirAuthority or AlternateDirAuthority to specify alternate directory authorities in your configuration. This is potentially dangerous: it can make you look different from all other Tor users, and hurt your anonymity. Even if you've specified the same authorities as Tor uses by default, the defaults could change in the future. Be sure you know what you're doing.
+Apr 27 12:25:26.336 [warn] V3AuthVotingInterval is very low. This may lead to failure to synchronise for a consensus.
+Apr 27 12:25:26.336 [warn] TestingTorNetwork is set. This will make your node almost unusable in the public Tor network, and is therefore only advised if you are building a testing Tor network!
+Apr 27 12:25:26.337 [notice] Opening OR listener on 0.0.0.0:5000
+Apr 27 12:25:26.000 [warn] Can't log to stderr with RunAsDaemon set; skipping stdout
+Apr 27 12:25:26.000 [warn] Your log may contain sensitive information - you disabled SafeLogging, and you're logging more than "notice". Don't log unless it serves an important reason. Overwrite the log afterwards.
+Apr 27 12:25:26.000 [notice] Not disabling debugger attaching for unprivileged users.
+Apr 27 12:25:26.000 [notice] Parsing GEOIP IPv4 file /usr/share/tor/geoip.
+Apr 27 12:25:26.000 [notice] Parsing GEOIP IPv6 file /usr/share/tor/geoip6.
+Apr 27 12:25:26.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Apr 27 12:25:26.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Apr 27 12:25:26.000 [notice] Your Tor server's identity key fingerprint is 'RS2 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90'
+Apr 27 12:25:26.000 [notice] Bootstrapped 0%: Starting
+Apr 27 12:25:27.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+Apr 27 12:25:27.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+Apr 27 12:25:27.000 [notice] Updating address for directory authority RS4 from 192.168.32.61:7000 to 192.168.1.4:7000 based on certificate.
+Apr 27 12:25:27.000 [notice] Bootstrapped 45%: Asking for relay descriptors
+Apr 27 12:25:27.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more descriptors: we have 0/3, and can only build 0% of likely paths. (We have 0% of guards bw, 0% of midpoint bw, and 0% of exit bw = 0% of path bw.)
+Apr 27 12:25:27.000 [notice] Bootstrapped 50%: Loading relay descriptors
+Apr 27 12:25:27.000 [notice] Bootstrapped 80%: Connecting to the Tor network
+Apr 27 12:25:28.000 [notice] Bootstrapped 85%: Finishing handshake with first hop
+Apr 27 12:25:28.000 [notice] Bootstrapped 90%: Establishing a Tor circuit
+Apr 27 12:25:28.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Apr 27 12:25:28.000 [notice] Bootstrapped 100%: Done
+Apr 27 12:36:03.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 12:36:03.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 12:36:03.000 [warn] Failed to find node for hop 1 of our path. Discarding this circuit.
+Apr 27 12:36:49.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:36:50.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:37:02.000 [notice] Catching signal TERM, exiting cleanly.
+Apr 27 12:37:18.000 [notice] Tor 0.2.7.6 (git-605ae665009853bd) opening log file.
+Apr 27 12:37:18.000 [warn] Can't log to stderr with RunAsDaemon set; skipping stdout
+Apr 27 12:37:18.642 [notice] Tor v0.2.7.6 (git-605ae665009853bd) running on Linux with Libevent 2.0.21-stable, OpenSSL 1.0.2g and Zlib 1.2.8.
+Apr 27 12:37:18.644 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning
+Apr 27 12:37:18.644 [notice] Read configuration file "/etc/tor/torrc".
+Apr 27 12:37:18.648 [notice] Your ContactInfo config option is not set. Please consider setting it, so we can contact you if your server is misconfigured or something else goes wrong.
+Apr 27 12:37:18.648 [notice] Based on detected system memory, MaxMemInQueues is set to 2896 MB. You can override this by setting MaxMemInQueues by hand.
+Apr 27 12:37:18.648 [warn] Tor is running as an exit relay with the default exit policy. If you did not want this behavior, please set the ExitRelay option to 0. If you do want to run an exit Relay, please set the ExitRelay option to 1 to disable this warning, and for forward compatibility.
+Apr 27 12:37:18.648 [warn] In a future version of Tor, ExitRelay 0 may become the default when no ExitPolicy is given.
+Apr 27 12:37:18.648 [warn] You have used DirAuthority or AlternateDirAuthority to specify alternate directory authorities in your configuration. This is potentially dangerous: it can make you look different from all other Tor users, and hurt your anonymity. Even if you've specified the same authorities as Tor uses by default, the defaults could change in the future. Be sure you know what you're doing.
+Apr 27 12:37:18.648 [warn] V3AuthVotingInterval is very low. This may lead to failure to synchronise for a consensus.
+Apr 27 12:37:18.648 [warn] TestingTorNetwork is set. This will make your node almost unusable in the public Tor network, and is therefore only advised if you are building a testing Tor network!
+Apr 27 12:37:18.648 [notice] Opening OR listener on 0.0.0.0:5000
+Apr 27 12:37:18.000 [warn] Can't log to stderr with RunAsDaemon set; skipping stdout
+Apr 27 12:37:18.000 [warn] Your log may contain sensitive information - you disabled SafeLogging, and you're logging more than "notice". Don't log unless it serves an important reason. Overwrite the log afterwards.
+Apr 27 12:37:18.000 [notice] Not disabling debugger attaching for unprivileged users.
+Apr 27 12:37:18.000 [notice] Parsing GEOIP IPv4 file /usr/share/tor/geoip.
+Apr 27 12:37:18.000 [notice] Parsing GEOIP IPv6 file /usr/share/tor/geoip6.
+Apr 27 12:37:18.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Apr 27 12:37:18.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Apr 27 12:37:18.000 [notice] Your Tor server's identity key fingerprint is 'RS2 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90'
+Apr 27 12:37:18.000 [notice] Bootstrapped 0%: Starting
+Apr 27 12:37:18.000 [notice] Updating address for directory authority RS4 from 192.168.32.61:7000 to 192.168.1.4:7000 based on certificate.
+Apr 27 12:37:18.000 [notice] Bootstrapped 80%: Connecting to the Tor network
+Apr 27 12:37:19.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:37:20.000 [notice] Bootstrapped 85%: Finishing handshake with first hop
+Apr 27 12:37:20.000 [notice] Bootstrapped 90%: Establishing a Tor circuit
+Apr 27 12:37:20.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Apr 27 12:37:20.000 [notice] Bootstrapped 100%: Done
+Apr 27 12:37:21.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:37:22.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:37:23.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:37:24.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:37:25.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:37:26.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 12:37:26.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 12:37:26.000 [warn] Failed to find node for hop 1 of our path. Discarding this circuit.
+Apr 27 12:37:27.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:37:43.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:03.000 [notice] Catching signal TERM, exiting cleanly.
+Apr 27 12:41:15.000 [notice] Tor 0.2.7.6 (git-605ae665009853bd) opening log file.
+Apr 27 12:41:15.000 [warn] Can't log to stderr with RunAsDaemon set; skipping stdout
+Apr 27 12:41:15.704 [notice] Tor v0.2.7.6 (git-605ae665009853bd) running on Linux with Libevent 2.0.21-stable, OpenSSL 1.0.2g and Zlib 1.2.8.
+Apr 27 12:41:15.704 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning
+Apr 27 12:41:15.704 [notice] Read configuration file "/etc/tor/torrc".
+Apr 27 12:41:15.708 [notice] Your ContactInfo config option is not set. Please consider setting it, so we can contact you if your server is misconfigured or something else goes wrong.
+Apr 27 12:41:15.708 [notice] Based on detected system memory, MaxMemInQueues is set to 2896 MB. You can override this by setting MaxMemInQueues by hand.
+Apr 27 12:41:15.708 [warn] Tor is running as an exit relay with the default exit policy. If you did not want this behavior, please set the ExitRelay option to 0. If you do want to run an exit Relay, please set the ExitRelay option to 1 to disable this warning, and for forward compatibility.
+Apr 27 12:41:15.708 [warn] In a future version of Tor, ExitRelay 0 may become the default when no ExitPolicy is given.
+Apr 27 12:41:15.708 [warn] You have used DirAuthority or AlternateDirAuthority to specify alternate directory authorities in your configuration. This is potentially dangerous: it can make you look different from all other Tor users, and hurt your anonymity. Even if you've specified the same authorities as Tor uses by default, the defaults could change in the future. Be sure you know what you're doing.
+Apr 27 12:41:15.708 [warn] V3AuthVotingInterval is very low. This may lead to failure to synchronise for a consensus.
+Apr 27 12:41:15.708 [warn] TestingTorNetwork is set. This will make your node almost unusable in the public Tor network, and is therefore only advised if you are building a testing Tor network!
+Apr 27 12:41:15.708 [notice] Opening OR listener on 0.0.0.0:5000
+Apr 27 12:41:15.000 [warn] Can't log to stderr with RunAsDaemon set; skipping stdout
+Apr 27 12:41:15.000 [warn] Your log may contain sensitive information - you disabled SafeLogging, and you're logging more than "notice". Don't log unless it serves an important reason. Overwrite the log afterwards.
+Apr 27 12:41:15.000 [notice] Not disabling debugger attaching for unprivileged users.
+Apr 27 12:41:15.000 [notice] Parsing GEOIP IPv4 file /usr/share/tor/geoip.
+Apr 27 12:41:15.000 [notice] Parsing GEOIP IPv6 file /usr/share/tor/geoip6.
+Apr 27 12:41:15.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Apr 27 12:41:15.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Apr 27 12:41:15.000 [notice] Your Tor server's identity key fingerprint is 'RS3 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90'
+Apr 27 12:41:15.000 [notice] Bootstrapped 0%: Starting
+Apr 27 12:41:15.000 [notice] Updating address for directory authority RS4 from 192.168.32.61:7000 to 192.168.1.4:7000 based on certificate.
+Apr 27 12:41:15.000 [notice] Bootstrapped 80%: Connecting to the Tor network
+Apr 27 12:41:16.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:17.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:18.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:19.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:20.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:21.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:22.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:23.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:24.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:25.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:26.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:27.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:28.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:29.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:30.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:31.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:32.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:33.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:34.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:35.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:36.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:37.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:38.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:39.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:40.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:41.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:42.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:43.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:44.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:45.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:46.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:47.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:48.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:49.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:50.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:51.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:41:52.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:18.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:19.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:20.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:21.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:22.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:23.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:35.000 [notice] Catching signal TERM, exiting cleanly.
+Apr 27 12:42:39.000 [notice] Tor 0.2.7.6 (git-605ae665009853bd) opening log file.
+Apr 27 12:42:39.000 [warn] Can't log to stderr with RunAsDaemon set; skipping stdout
+Apr 27 12:42:39.407 [notice] Tor v0.2.7.6 (git-605ae665009853bd) running on Linux with Libevent 2.0.21-stable, OpenSSL 1.0.2g and Zlib 1.2.8.
+Apr 27 12:42:39.407 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning
+Apr 27 12:42:39.407 [notice] Read configuration file "/etc/tor/torrc".
+Apr 27 12:42:39.410 [notice] Your ContactInfo config option is not set. Please consider setting it, so we can contact you if your server is misconfigured or something else goes wrong.
+Apr 27 12:42:39.410 [notice] Based on detected system memory, MaxMemInQueues is set to 2896 MB. You can override this by setting MaxMemInQueues by hand.
+Apr 27 12:42:39.410 [warn] Tor is running as an exit relay with the default exit policy. If you did not want this behavior, please set the ExitRelay option to 0. If you do want to run an exit Relay, please set the ExitRelay option to 1 to disable this warning, and for forward compatibility.
+Apr 27 12:42:39.410 [warn] In a future version of Tor, ExitRelay 0 may become the default when no ExitPolicy is given.
+Apr 27 12:42:39.410 [warn] You have used DirAuthority or AlternateDirAuthority to specify alternate directory authorities in your configuration. This is potentially dangerous: it can make you look different from all other Tor users, and hurt your anonymity. Even if you've specified the same authorities as Tor uses by default, the defaults could change in the future. Be sure you know what you're doing.
+Apr 27 12:42:39.410 [warn] V3AuthVotingInterval is very low. This may lead to failure to synchronise for a consensus.
+Apr 27 12:42:39.410 [warn] TestingTorNetwork is set. This will make your node almost unusable in the public Tor network, and is therefore only advised if you are building a testing Tor network!
+Apr 27 12:42:39.411 [notice] Opening OR listener on 0.0.0.0:5000
+Apr 27 12:42:39.000 [warn] Can't log to stderr with RunAsDaemon set; skipping stdout
+Apr 27 12:42:39.000 [warn] Your log may contain sensitive information - you disabled SafeLogging, and you're logging more than "notice". Don't log unless it serves an important reason. Overwrite the log afterwards.
+Apr 27 12:42:39.000 [notice] Not disabling debugger attaching for unprivileged users.
+Apr 27 12:42:39.000 [notice] Parsing GEOIP IPv4 file /usr/share/tor/geoip.
+Apr 27 12:42:39.000 [notice] Parsing GEOIP IPv6 file /usr/share/tor/geoip6.
+Apr 27 12:42:39.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Apr 27 12:42:39.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Apr 27 12:42:39.000 [notice] Your Tor server's identity key fingerprint is 'RS3 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90'
+Apr 27 12:42:39.000 [notice] Bootstrapped 0%: Starting
+Apr 27 12:42:39.000 [notice] Updating address for directory authority RS4 from 192.168.32.61:7000 to 192.168.1.4:7000 based on certificate.
+Apr 27 12:42:39.000 [notice] Bootstrapped 80%: Connecting to the Tor network
+Apr 27 12:42:40.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:41.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:42.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:43.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:44.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:45.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:46.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:47.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:48.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:49.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:50.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:51.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:52.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:53.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:54.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:55.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:56.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:57.000 [notice] Self-testing indicates your ORPort is reachable from the outside. Excellent. Publishing server descriptor.
+Apr 27 12:42:57.000 [notice] Bootstrapped 85%: Finishing handshake with first hop
+Apr 27 12:42:57.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:58.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:42:59.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 12:42:59.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 12:42:59.000 [warn] Failed to find node for hop 1 of our path. Discarding this circuit.
+Apr 27 12:43:04.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:46:20.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:46:21.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:46:22.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:46:48.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:46:49.000 [notice] Bootstrapped 90%: Establishing a Tor circuit
+Apr 27 12:46:49.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Apr 27 12:46:49.000 [notice] Bootstrapped 100%: Done
+Apr 27 12:47:01.000 [notice] Performing bandwidth self-test...done.
+Apr 27 12:49:03.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:51:05.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:52:06.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:53:07.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:54:08.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 12:54:08.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 12:54:08.000 [warn] Failed to find node for hop 1 of our path. Discarding this circuit.
+Apr 27 12:57:30.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:57:40.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:57:40.000 [notice] Our directory information is no longer up-to-date enough to build circuits: We need more descriptors: we have 3/4, and can only build 33% of likely paths. (We have 66% of guards bw, 75% of midpoint bw, and 66% of exit bw = 33% of path bw.)
+Apr 27 12:57:40.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more descriptors: we have 3/4, and can only build 33% of likely paths. (We have 66% of guards bw, 75% of midpoint bw, and 66% of exit bw = 33% of path bw.)
+Apr 27 12:57:40.000 [notice] We now have enough directory information to build circuits.
+Apr 27 12:57:41.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Apr 27 12:57:41.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Apr 27 12:59:11.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:00:12.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:01:15.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:02:25.000 [notice] Catching signal TERM, exiting cleanly.
+Apr 27 18:32:27.000 [notice] Tor 0.2.7.6 (git-605ae665009853bd) opening log file.
+Apr 27 18:32:27.000 [warn] Can't log to stderr with RunAsDaemon set; skipping stdout
+Apr 27 18:32:27.876 [notice] Tor v0.2.7.6 (git-605ae665009853bd) running on Linux with Libevent 2.0.21-stable, OpenSSL 1.0.2g and Zlib 1.2.8.
+Apr 27 18:32:27.876 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning
+Apr 27 18:32:27.876 [notice] Read configuration file "/etc/tor/torrc".
+Apr 27 18:32:27.879 [notice] Your ContactInfo config option is not set. Please consider setting it, so we can contact you if your server is misconfigured or something else goes wrong.
+Apr 27 18:32:27.879 [notice] Based on detected system memory, MaxMemInQueues is set to 2896 MB. You can override this by setting MaxMemInQueues by hand.
+Apr 27 18:32:27.879 [warn] Tor is running as an exit relay with the default exit policy. If you did not want this behavior, please set the ExitRelay option to 0. If you do want to run an exit Relay, please set the ExitRelay option to 1 to disable this warning, and for forward compatibility.
+Apr 27 18:32:27.879 [warn] In a future version of Tor, ExitRelay 0 may become the default when no ExitPolicy is given.
+Apr 27 18:32:27.879 [warn] You have used DirAuthority or AlternateDirAuthority to specify alternate directory authorities in your configuration. This is potentially dangerous: it can make you look different from all other Tor users, and hurt your anonymity. Even if you've specified the same authorities as Tor uses by default, the defaults could change in the future. Be sure you know what you're doing.
+Apr 27 18:32:27.879 [warn] TestingTorNetwork is set. This will make your node almost unusable in the public Tor network, and is therefore only advised if you are building a testing Tor network!
+Apr 27 18:32:27.880 [notice] Opening OR listener on 0.0.0.0:5000
+Apr 27 18:32:27.000 [warn] Can't log to stderr with RunAsDaemon set; skipping stdout
+Apr 27 18:32:27.000 [warn] Your log may contain sensitive information - you disabled SafeLogging, and you're logging more than "notice". Don't log unless it serves an important reason. Overwrite the log afterwards.
+Apr 27 18:32:27.000 [notice] Not disabling debugger attaching for unprivileged users.
+Apr 27 18:32:27.000 [notice] Parsing GEOIP IPv4 file /usr/share/tor/geoip.
+Apr 27 18:32:27.000 [notice] Parsing GEOIP IPv6 file /usr/share/tor/geoip6.
+Apr 27 18:32:27.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Apr 27 18:32:27.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Apr 27 18:32:28.000 [notice] Your Tor server's identity key fingerprint is 'RS3 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90'
+Apr 27 18:32:28.000 [notice] Bootstrapped 0%: Starting
+Apr 27 18:32:28.000 [notice] Updating address for directory authority RS4 from 192.168.32.61:7000 to 192.168.1.4:7000 based on certificate.
+Apr 27 18:32:28.000 [notice] Bootstrapped 80%: Connecting to the Tor network
+Apr 27 18:32:28.000 [notice] Self-testing indicates your ORPort is reachable from the outside. Excellent. Publishing server descriptor.
+Apr 27 18:32:28.000 [notice] Bootstrapped 85%: Finishing handshake with first hop
+Apr 27 18:32:29.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 18:32:30.000 [notice] Bootstrapped 90%: Establishing a Tor circuit
+Apr 27 18:32:30.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Apr 27 18:32:30.000 [notice] Bootstrapped 100%: Done
+Apr 27 18:33:30.000 [notice] Performing bandwidth self-test...done.
+Apr 27 18:41:23.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 18:41:23.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 18:41:23.000 [warn] Failed to find node for hop 1 of our path. Discarding this circuit.
+Apr 27 18:41:25.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 18:41:25.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 18:41:25.000 [warn] Failed to find node for hop 1 of our path. Discarding this circuit.
+Apr 27 18:42:55.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 18:46:02.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 18:48:04.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 18:52:08.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 18:54:11.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.

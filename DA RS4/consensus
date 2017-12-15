@@ -1,0 +1,48 @@
+network-status-version 3
+vote-status consensus
+consensus-method 21
+valid-after 2017-04-27 13:40:00
+fresh-until 2017-04-27 13:45:00
+valid-until 2017-04-27 13:55:00
+voting-delay 20 20
+client-versions 
+server-versions 
+known-flags Authority Exit Fast Guard HSDir Running Stable V2Dir Valid
+dir-source RS4 714B0F74267DC7FD46D14F72485FA4D7FF34EB70 192.168.32.61 192.168.32.61 7000 5000
+contact auth0@test.test
+vote-digest 7C923812B9D54DCAA60D257B0BD8DE57D5066C64
+r RS2 Eu09fjgiwX8ixeQaO4KFOLa4tO0 sn76VWN+e9EQMAkiXCfp1Wm264E 2017-04-27 17:49:44 192.168.32.50 5000 0
+s Exit Fast Guard Running Valid
+v Tor 0.2.7.6
+w Bandwidth=0 Unmeasured=1
+p reject 25,119,135-139,445,563,1214,4661-4666,6346-6429,6699,6881-6999
+r RS3 KbTvoYqvDUEd2kQfn9am4BOp75A gtLy+MUuW3K6yasHJMqM0AuXJeA 2017-04-27 12:42:39 192.168.32.59 5000 0
+s Exit Fast Guard Running Stable Valid
+v Tor 0.2.7.6
+w Bandwidth=0 Unmeasured=1
+p reject 25,119,135-139,445,563,1214,4661-4666,6346-6429,6699,6881-6999
+r RS5 zm1L042LSxAxZyQRawJ6zrD/bnU wCeU0uGSo3leRWrCmDabcmIq6BM 2017-04-27 12:53:38 192.168.32.62 5000 0
+s Exit Fast Guard Running Stable Valid
+v Tor 0.2.7.6
+w Bandwidth=0 Unmeasured=1
+p reject 25,119,135-139,445,563,1214,4661-4666,6346-6429,6699,6881-6999
+r RS4 5Car+DnqX61d17SwehM4oWxsJHc LEB4CXrKY5VzRsxJf/tHXJYxIG0 2017-04-27 13:12:57 192.168.32.61 5000 7000
+s Authority Fast Running V2Dir Valid
+v Tor 0.2.7.6
+w Bandwidth=0 Unmeasured=1
+p reject 1-65535
+r RS1 7LfUkT97CpzL9sby+vfc9MEneOk riMUwgrdvRKKpB/Lx3m/F301MLk 2017-04-27 12:20:00 192.168.32.60 5000 0
+s Exit Fast Guard Running Stable Valid
+v Tor 0.2.7.6
+w Bandwidth=0 Unmeasured=1
+p reject 25,119,135-139,445,563,1214,4661-4666,6346-6429,6699,6881-6999
+directory-footer
+directory-signature 714B0F74267DC7FD46D14F72485FA4D7FF34EB70 12BBE9000E62343CF6856A382A20F8A154728A22
+-----BEGIN SIGNATURE-----
+hvrLJpGN6DGVUqQoeBlB2PoinMp7eQcgUIzKdkvABtBXtso53/RI6cizSBFEHlB8
+zZ2t6z8jd2T6OkVeb2lprNWT7Ta0t9yscmQhrC2MU7t7jwE6SYxk1tnbSkuG+YoJ
+V8DF/Pyl/ihohuZ2Oe3xiMSlBXPzAccTChJo1CO8i1cm0CdkIOfUkNEs8MD60nXf
+CQZ2i6nrjRShNrfIMJ4iE5JAXvns6NdjzuIfbHM5r+InKOcsJq6SoSO7hgo4L/xD
+MaWvJWcULuX7mvEAkuPr9RSkH2k1MdSHKoSkY93BT5DgTTYwTbv0kTo03V6euMYW
+2Bsq4bvuAf98zUOHqxTKxQ==
+-----END SIGNATURE-----

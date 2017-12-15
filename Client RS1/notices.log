@@ -1,0 +1,609 @@
+Apr 27 12:20:00.000 [notice] Tor 0.2.7.6 (git-605ae665009853bd) opening new log file.
+Apr 27 12:20:00.575 [notice] Tor v0.2.7.6 (git-605ae665009853bd) running on Linux with Libevent 2.0.21-stable, OpenSSL 1.0.2g and Zlib 1.2.8.
+Apr 27 12:20:00.575 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning
+Apr 27 12:20:00.575 [notice] Read configuration file "/etc/tor/torrc".
+Apr 27 12:20:00.583 [notice] Your ContactInfo config option is not set. Please consider setting it, so we can contact you if your server is misconfigured or something else goes wrong.
+Apr 27 12:20:00.583 [notice] Based on detected system memory, MaxMemInQueues is set to 2896 MB. You can override this by setting MaxMemInQueues by hand.
+Apr 27 12:20:00.583 [warn] Tor is running as an exit relay with the default exit policy. If you did not want this behavior, please set the ExitRelay option to 0. If you do want to run an exit Relay, please set the ExitRelay option to 1 to disable this warning, and for forward compatibility.
+Apr 27 12:20:00.583 [warn] In a future version of Tor, ExitRelay 0 may become the default when no ExitPolicy is given.
+Apr 27 12:20:00.583 [warn] You have used DirAuthority or AlternateDirAuthority to specify alternate directory authorities in your configuration. This is potentially dangerous: it can make you look different from all other Tor users, and hurt your anonymity. Even if you've specified the same authorities as Tor uses by default, the defaults could change in the future. Be sure you know what you're doing.
+Apr 27 12:20:00.583 [warn] V3AuthVotingInterval is very low. This may lead to failure to synchronise for a consensus.
+Apr 27 12:20:00.583 [warn] TestingTorNetwork is set. This will make your node almost unusable in the public Tor network, and is therefore only advised if you are building a testing Tor network!
+Apr 27 12:20:00.584 [notice] Opening Socks listener on 127.0.0.1:9011
+Apr 27 12:20:00.584 [notice] Opening OR listener on 0.0.0.0:5000
+Apr 27 12:20:00.000 [warn] Your log may contain sensitive information - you disabled SafeLogging, and you're logging more than "notice". Don't log unless it serves an important reason. Overwrite the log afterwards.
+Apr 27 12:20:00.000 [notice] Not disabling debugger attaching for unprivileged users.
+Apr 27 12:20:00.000 [notice] Parsing GEOIP IPv4 file /usr/share/tor/geoip.
+Apr 27 12:20:00.000 [notice] Parsing GEOIP IPv6 file /usr/share/tor/geoip6.
+Apr 27 12:20:00.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Apr 27 12:20:00.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Apr 27 12:20:00.000 [notice] Your Tor server's identity key fingerprint is 'RS1 ECB7D4913F7B0A9CCBF6C6F2FAF7DCF4C12778E9'
+Apr 27 12:20:00.000 [notice] Bootstrapped 0%: Starting
+Apr 27 12:20:01.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+Apr 27 12:20:01.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+Apr 27 12:20:01.000 [notice] Updating address for directory authority RS4 from 192.168.32.61:7000 to 192.168.1.4:7000 based on certificate.
+Apr 27 12:20:01.000 [notice] Bootstrapped 45%: Asking for relay descriptors
+Apr 27 12:20:01.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more descriptors: we have 0/2, and can only build 0% of likely paths. (We have 0% of guards bw, 0% of midpoint bw, and 0% of exit bw = 0% of path bw.)
+Apr 27 12:20:01.000 [notice] Bootstrapped 50%: Loading relay descriptors
+Apr 27 12:20:01.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more descriptors: we have 2/2, and can only build 0% of likely paths. (We have 100% of guards bw, 100% of midpoint bw, and 0% of exit bw = 0% of path bw.)
+Apr 27 12:25:04.000 [notice] Self-testing indicates your ORPort is reachable from the outside. Excellent. Publishing server descriptor.
+Apr 27 12:25:04.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:25:04.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:25:07.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:25:07.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:25:13.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:25:13.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:25:19.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:25:19.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:25:20.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:25:20.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:25:23.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:25:23.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:25:55.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:25:55.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:25:55.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more descriptors: we have 2/2, and can only build 0% of likely paths. (We have 100% of guards bw, 100% of midpoint bw, and 0% of exit bw = 0% of path bw.)
+Apr 27 12:25:57.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:25:57.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:26:57.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:26:57.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:26:58.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:26:58.000 [warn] Problem bootstrapping. Stuck at 50%: Loading relay descriptors. (Unexpected identity in router certificate; IDENTITY; count 10; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:26:58.000 [warn] 9 connections have failed:
+Apr 27 12:26:58.000 [warn]  9 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:26:58.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:27:19.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more descriptors: we have 2/3, and can only build 22% of likely paths. (We have 66% of guards bw, 66% of midpoint bw, and 50% of exit bw = 22% of path bw.)
+Apr 27 12:27:19.000 [notice] Bootstrapped 80%: Connecting to the Tor network
+Apr 27 12:27:20.000 [notice] Bootstrapped 85%: Finishing handshake with first hop
+Apr 27 12:27:20.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:27:20.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 11; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:27:20.000 [warn] 10 connections have failed:
+Apr 27 12:27:20.000 [warn]  10 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:27:20.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:27:21.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 12:27:21.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 12:27:21.000 [warn] Failed to find node for hop 1 of our path. Discarding this circuit.
+Apr 27 12:27:27.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:27:27.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 12; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:27:27.000 [warn] 11 connections have failed:
+Apr 27 12:27:27.000 [warn]  11 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:27:27.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:27:28.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:27:28.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 13; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:27:28.000 [warn] 12 connections have failed:
+Apr 27 12:27:28.000 [warn]  12 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:27:28.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:27:29.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:27:29.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 14; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:27:29.000 [warn] 13 connections have failed:
+Apr 27 12:27:29.000 [warn]  13 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:27:29.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:27:30.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:27:30.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 15; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:27:30.000 [warn] 14 connections have failed:
+Apr 27 12:27:30.000 [warn]  14 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:27:30.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:27:31.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:27:31.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 16; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:27:31.000 [warn] 15 connections have failed:
+Apr 27 12:27:31.000 [warn]  15 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:27:31.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:28:00.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:28:00.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 17; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:28:00.000 [warn] 16 connections have failed:
+Apr 27 12:28:00.000 [warn]  16 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:28:00.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:28:01.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:28:01.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 18; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:28:01.000 [warn] 17 connections have failed:
+Apr 27 12:28:01.000 [warn]  17 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:28:01.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:28:03.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:28:03.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 19; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:28:03.000 [warn] 18 connections have failed:
+Apr 27 12:28:03.000 [warn]  18 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:28:03.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:28:30.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:28:30.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 20; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:28:30.000 [warn] 19 connections have failed:
+Apr 27 12:28:30.000 [warn]  19 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:28:30.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:28:30.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:28:30.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 21; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:28:30.000 [warn] 20 connections have failed:
+Apr 27 12:28:30.000 [warn]  20 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:28:30.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:28:32.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:28:32.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 22; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:28:32.000 [warn] 21 connections have failed:
+Apr 27 12:28:32.000 [warn]  21 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:28:32.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:29:02.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:29:02.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 23; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:29:02.000 [warn] 22 connections have failed:
+Apr 27 12:29:02.000 [warn]  22 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:29:02.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:29:03.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:29:03.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 24; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:29:03.000 [warn] 23 connections have failed:
+Apr 27 12:29:03.000 [warn]  23 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:29:03.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:29:04.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:29:04.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 25; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:29:04.000 [warn] 24 connections have failed:
+Apr 27 12:29:04.000 [warn]  24 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:29:04.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:29:05.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:29:05.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 26; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:29:05.000 [warn] 25 connections have failed:
+Apr 27 12:29:05.000 [warn]  25 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:29:05.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:29:32.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:29:32.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 27; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:29:32.000 [warn] 26 connections have failed:
+Apr 27 12:29:32.000 [warn]  26 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:29:32.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:29:33.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:29:33.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 28; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:29:33.000 [warn] 27 connections have failed:
+Apr 27 12:29:33.000 [warn]  27 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:29:33.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:30:02.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:30:02.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 29; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:30:02.000 [warn] 28 connections have failed:
+Apr 27 12:30:02.000 [warn]  28 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:30:02.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:30:04.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:30:04.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 30; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:30:04.000 [warn] 29 connections have failed:
+Apr 27 12:30:04.000 [warn]  29 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:30:04.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:30:05.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:30:05.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 31; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:30:05.000 [warn] 30 connections have failed:
+Apr 27 12:30:05.000 [warn]  30 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:30:05.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:30:06.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:30:06.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 32; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:30:06.000 [warn] 31 connections have failed:
+Apr 27 12:30:06.000 [warn]  31 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:30:06.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:30:32.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:30:32.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 33; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:30:32.000 [warn] 32 connections have failed:
+Apr 27 12:30:32.000 [warn]  32 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:30:32.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:30:33.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:30:33.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 34; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:30:33.000 [warn] 33 connections have failed:
+Apr 27 12:30:33.000 [warn]  33 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:30:33.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:31:06.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:31:06.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 35; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:31:06.000 [warn] 34 connections have failed:
+Apr 27 12:31:06.000 [warn]  34 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:31:06.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:31:07.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:31:07.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 36; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:31:07.000 [warn] 35 connections have failed:
+Apr 27 12:31:07.000 [warn]  35 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:31:07.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:31:33.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:31:33.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 37; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:31:33.000 [warn] 36 connections have failed:
+Apr 27 12:31:33.000 [warn]  36 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:31:33.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:31:35.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:31:35.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 38; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:31:35.000 [warn] 37 connections have failed:
+Apr 27 12:31:35.000 [warn]  37 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:31:35.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:31:38.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:31:38.000 [warn] Problem bootstrapping. Stuck at 85%: Finishing handshake with first hop. (Unexpected identity in router certificate; IDENTITY; count 39; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:31:38.000 [warn] 38 connections have failed:
+Apr 27 12:31:38.000 [warn]  38 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:31:38.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:31:54.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:31:55.000 [notice] Bootstrapped 90%: Establishing a Tor circuit
+Apr 27 12:31:56.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:31:57.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:31:58.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:32:07.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:32:07.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 40; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:32:07.000 [warn] 39 connections have failed:
+Apr 27 12:32:07.000 [warn]  39 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:32:07.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:32:11.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:32:11.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 41; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:32:11.000 [warn] 40 connections have failed:
+Apr 27 12:32:11.000 [warn]  40 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:32:11.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:32:25.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 12:32:25.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 12:32:25.000 [warn] Failed to find node for hop 1 of our path. Discarding this circuit.
+Apr 27 12:32:31.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:32:31.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 42; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:32:31.000 [warn] 41 connections have failed:
+Apr 27 12:32:31.000 [warn]  41 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:32:31.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:32:31.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:32:31.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 43; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:32:31.000 [warn] 42 connections have failed:
+Apr 27 12:32:31.000 [warn]  42 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:32:31.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:32:34.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:32:34.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 44; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:32:34.000 [warn] 43 connections have failed:
+Apr 27 12:32:34.000 [warn]  43 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:32:34.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:33:08.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:33:08.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 45; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:33:08.000 [warn] 44 connections have failed:
+Apr 27 12:33:08.000 [warn]  44 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:33:08.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:33:11.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:33:11.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 46; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:33:11.000 [warn] 45 connections have failed:
+Apr 27 12:33:11.000 [warn]  45 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:33:11.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:33:12.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:33:12.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 47; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:33:12.000 [warn] 46 connections have failed:
+Apr 27 12:33:12.000 [warn]  46 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:33:12.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:33:39.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:33:39.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 48; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:33:39.000 [warn] 47 connections have failed:
+Apr 27 12:33:39.000 [warn]  47 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:33:39.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:33:40.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:33:40.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 49; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:33:40.000 [warn] 48 connections have failed:
+Apr 27 12:33:40.000 [warn]  48 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:33:40.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:34:13.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:34:13.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 50; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:34:13.000 [warn] 49 connections have failed:
+Apr 27 12:34:13.000 [warn]  49 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:34:13.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:34:43.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:34:43.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 51; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:34:43.000 [warn] 50 connections have failed:
+Apr 27 12:34:43.000 [warn]  50 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:34:43.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:34:45.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:34:45.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 52; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:34:45.000 [warn] 51 connections have failed:
+Apr 27 12:34:45.000 [warn]  51 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:34:45.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:35:14.000 [warn] Rejecting SOCKS request for an IP address family that this listener does not support.
+Apr 27 12:35:47.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:35:47.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 53; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:35:47.000 [warn] 52 connections have failed:
+Apr 27 12:35:47.000 [warn]  52 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:35:47.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:35:48.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:35:48.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 54; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:35:48.000 [warn] 53 connections have failed:
+Apr 27 12:35:48.000 [warn]  53 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:35:48.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:36:00.000 [notice] Catching signal TERM, exiting cleanly.
+Apr 27 12:36:03.000 [notice] Tor 0.2.7.6 (git-605ae665009853bd) opening log file.
+Apr 27 12:36:03.057 [notice] Tor v0.2.7.6 (git-605ae665009853bd) running on Linux with Libevent 2.0.21-stable, OpenSSL 1.0.2g and Zlib 1.2.8.
+Apr 27 12:36:03.057 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning
+Apr 27 12:36:03.057 [notice] Read configuration file "/etc/tor/torrc".
+Apr 27 12:36:03.061 [notice] Your ContactInfo config option is not set. Please consider setting it, so we can contact you if your server is misconfigured or something else goes wrong.
+Apr 27 12:36:03.061 [notice] Based on detected system memory, MaxMemInQueues is set to 2896 MB. You can override this by setting MaxMemInQueues by hand.
+Apr 27 12:36:03.061 [warn] Tor is running as an exit relay with the default exit policy. If you did not want this behavior, please set the ExitRelay option to 0. If you do want to run an exit Relay, please set the ExitRelay option to 1 to disable this warning, and for forward compatibility.
+Apr 27 12:36:03.061 [warn] In a future version of Tor, ExitRelay 0 may become the default when no ExitPolicy is given.
+Apr 27 12:36:03.061 [warn] You have used DirAuthority or AlternateDirAuthority to specify alternate directory authorities in your configuration. This is potentially dangerous: it can make you look different from all other Tor users, and hurt your anonymity. Even if you've specified the same authorities as Tor uses by default, the defaults could change in the future. Be sure you know what you're doing.
+Apr 27 12:36:03.061 [warn] V3AuthVotingInterval is very low. This may lead to failure to synchronise for a consensus.
+Apr 27 12:36:03.061 [warn] TestingTorNetwork is set. This will make your node almost unusable in the public Tor network, and is therefore only advised if you are building a testing Tor network!
+Apr 27 12:36:03.062 [notice] Opening Socks listener on 127.0.0.1:9011
+Apr 27 12:36:03.062 [notice] Opening OR listener on 0.0.0.0:5000
+Apr 27 12:36:03.000 [warn] Your log may contain sensitive information - you disabled SafeLogging, and you're logging more than "notice". Don't log unless it serves an important reason. Overwrite the log afterwards.
+Apr 27 12:36:03.000 [notice] Not disabling debugger attaching for unprivileged users.
+Apr 27 12:36:03.000 [notice] Parsing GEOIP IPv4 file /usr/share/tor/geoip.
+Apr 27 12:36:03.000 [notice] Parsing GEOIP IPv6 file /usr/share/tor/geoip6.
+Apr 27 12:36:03.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Apr 27 12:36:03.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Apr 27 12:36:03.000 [notice] Your Tor server's identity key fingerprint is 'RS1 ECB7D4913F7B0A9CCBF6C6F2FAF7DCF4C12778E9'
+Apr 27 12:36:03.000 [notice] Bootstrapped 0%: Starting
+Apr 27 12:36:03.000 [notice] Updating address for directory authority RS4 from 192.168.32.61:7000 to 192.168.1.4:7000 based on certificate.
+Apr 27 12:36:03.000 [notice] Bootstrapped 80%: Connecting to the Tor network
+Apr 27 12:36:04.000 [notice] Bootstrapped 85%: Finishing handshake with first hop
+Apr 27 12:36:04.000 [notice] Bootstrapped 90%: Establishing a Tor circuit
+Apr 27 12:36:08.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 12:36:08.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 12:36:08.000 [warn] Failed to find node for hop 1 of our path. Discarding this circuit.
+Apr 27 12:36:12.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 12:36:12.000 [warn] No available nodes when trying to choose node. Failing.
+Apr 27 12:36:12.000 [warn] Failed to find node for hop 1 of our path. Discarding this circuit.
+Apr 27 12:36:16.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:36:16.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:37:17.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:37:17.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:37:18.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:37:18.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:37:47.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:37:47.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:37:48.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:37:48.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:37:49.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:37:49.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:37:50.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:37:50.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:37:52.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:37:52.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:38:23.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:38:23.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:38:53.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:38:53.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 10; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:38:53.000 [warn] 9 connections have failed:
+Apr 27 12:38:53.000 [warn]  9 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:38:53.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:38:54.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:38:54.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 11; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:38:54.000 [warn] 10 connections have failed:
+Apr 27 12:38:54.000 [warn]  10 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:38:54.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:39:22.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:39:22.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 12; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:39:22.000 [warn] 11 connections have failed:
+Apr 27 12:39:22.000 [warn]  11 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:39:22.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:39:24.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:39:24.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 13; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:39:24.000 [warn] 12 connections have failed:
+Apr 27 12:39:24.000 [warn]  12 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:39:24.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:39:55.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:39:55.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 14; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:39:55.000 [warn] 13 connections have failed:
+Apr 27 12:39:55.000 [warn]  13 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:39:55.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:40:23.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:40:23.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 15; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:40:23.000 [warn] 14 connections have failed:
+Apr 27 12:40:23.000 [warn]  14 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:40:23.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:40:24.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:40:24.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 16; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:40:24.000 [warn] 15 connections have failed:
+Apr 27 12:40:24.000 [warn]  15 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:40:24.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:40:26.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:40:26.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 17; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:40:26.000 [warn] 16 connections have failed:
+Apr 27 12:40:26.000 [warn]  16 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:40:26.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:40:53.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:40:53.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 18; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:40:53.000 [warn] 17 connections have failed:
+Apr 27 12:40:53.000 [warn]  17 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:40:53.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:40:55.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:40:55.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 19; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:40:55.000 [warn] 18 connections have failed:
+Apr 27 12:40:55.000 [warn]  18 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:40:55.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:41:55.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:41:55.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 20; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:41:55.000 [warn] 19 connections have failed:
+Apr 27 12:41:55.000 [warn]  19 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:41:55.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:41:58.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:41:58.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 21; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:41:58.000 [warn] 20 connections have failed:
+Apr 27 12:41:58.000 [warn]  20 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:41:58.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:42:31.000 [warn] Tried connecting to router at 192.168.32.50:5000, but identity key was not as expected: wanted 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 but got 12ED3D7E3822C17F22C5E41A3B828538B6B8B4ED.
+Apr 27 12:42:31.000 [warn] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (Unexpected identity in router certificate; IDENTITY; count 22; recommendation warn; host 29B4EFA18AAF0D411DDA441F9FD6A6E013A9EF90 at 192.168.32.50:5000)
+Apr 27 12:42:31.000 [warn] 21 connections have failed:
+Apr 27 12:42:31.000 [warn]  21 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Apr 27 12:42:31.000 [warn] Received a bad CERTS cell from 192.168.32.50:5000: Problem setting or checking peer id
+Apr 27 12:42:57.000 [notice] Self-testing indicates your ORPort is reachable from the outside. Excellent. Publishing server descriptor.
+Apr 27 12:43:18.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:43:19.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:43:19.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:43:19.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:43:20.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:43:20.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:43:49.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:43:50.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:43:50.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:43:50.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:43:51.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:43:51.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:44:20.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:44:21.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:44:21.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:44:21.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:44:21.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:44:21.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:44:51.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:44:52.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:44:52.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:44:52.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:44:52.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:44:52.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:45:22.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:45:23.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:45:23.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:45:23.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:45:23.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:45:23.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:45:53.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:45:54.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:45:54.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:45:54.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:45:54.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:45:54.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:46:24.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:46:25.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:46:25.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:46:25.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:46:26.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:46:26.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:46:55.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:46:56.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:46:56.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:46:56.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:46:56.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:46:56.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:47:26.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:47:27.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:47:27.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:47:27.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:47:27.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:47:27.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:47:57.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:47:58.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:47:58.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:47:58.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:47:58.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:47:58.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:48:28.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:48:29.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:48:29.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:48:29.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:48:29.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:48:29.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:48:59.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:49:00.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:49:01.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:49:02.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:49:03.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:49:04.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:49:30.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:49:31.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:49:31.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:49:31.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:49:32.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:49:32.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:50:01.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:50:01.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:50:01.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:50:02.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:50:02.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:50:02.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:50:32.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:50:33.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:50:33.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:50:33.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:50:33.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:50:33.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:51:03.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:51:03.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:51:03.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:51:04.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:51:04.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:51:04.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:51:34.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:51:35.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:51:36.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:51:37.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:51:38.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:51:39.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:52:05.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:52:06.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:52:06.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:52:06.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:52:07.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:52:07.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:52:36.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:52:37.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:52:38.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:52:39.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:52:40.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:52:41.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:53:07.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:53:08.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:53:09.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:53:10.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:53:11.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:53:12.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:53:38.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:53:39.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:53:40.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:53:41.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:53:42.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:53:43.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:54:09.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:54:10.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:54:10.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:54:10.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:54:11.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:54:11.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:54:40.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:54:41.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:54:41.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:54:41.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:54:41.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:54:41.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:55:11.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:55:11.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:55:11.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:55:12.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:55:12.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:55:12.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:55:42.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:55:43.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:55:43.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:55:43.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:55:44.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:55:44.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:56:13.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:56:14.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:56:14.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:56:14.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:56:15.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:56:15.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:56:18.000 [notice] Our directory information is no longer up-to-date enough to build circuits: We need more descriptors: we have 3/4, and can only build 33% of likely paths. (We have 66% of guards bw, 75% of midpoint bw, and 66% of exit bw = 33% of path bw.)
+Apr 27 12:56:18.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more descriptors: we have 3/4, and can only build 33% of likely paths. (We have 66% of guards bw, 75% of midpoint bw, and 66% of exit bw = 33% of path bw.)
+Apr 27 12:56:18.000 [notice] We now have enough directory information to build circuits.
+Apr 27 12:56:44.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 12:56:45.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Apr 27 12:56:45.000 [notice] Bootstrapped 100%: Done
+Apr 27 13:00:52.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:01:48.000 [notice] Performing bandwidth self-test...done.
+Apr 27 13:02:27.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:02:29.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:02:30.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:02:31.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:04:36.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:05:37.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:07:39.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 13:11:22.000 [notice] Catching signal TERM, exiting cleanly.
+Apr 27 18:41:24.000 [notice] Tor 0.2.7.6 (git-605ae665009853bd) opening log file.
+Apr 27 18:41:24.104 [notice] Tor v0.2.7.6 (git-605ae665009853bd) running on Linux with Libevent 2.0.21-stable, OpenSSL 1.0.2g and Zlib 1.2.8.
+Apr 27 18:41:24.104 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning
+Apr 27 18:41:24.104 [notice] Read configuration file "/etc/tor/torrc".
+Apr 27 18:41:24.107 [notice] Your ContactInfo config option is not set. Please consider setting it, so we can contact you if your server is misconfigured or something else goes wrong.
+Apr 27 18:41:24.107 [notice] Based on detected system memory, MaxMemInQueues is set to 2896 MB. You can override this by setting MaxMemInQueues by hand.
+Apr 27 18:41:24.107 [warn] Tor is running as an exit relay with the default exit policy. If you did not want this behavior, please set the ExitRelay option to 0. If you do want to run an exit Relay, please set the ExitRelay option to 1 to disable this warning, and for forward compatibility.
+Apr 27 18:41:24.107 [warn] In a future version of Tor, ExitRelay 0 may become the default when no ExitPolicy is given.
+Apr 27 18:41:24.107 [warn] You have used DirAuthority or AlternateDirAuthority to specify alternate directory authorities in your configuration. This is potentially dangerous: it can make you look different from all other Tor users, and hurt your anonymity. Even if you've specified the same authorities as Tor uses by default, the defaults could change in the future. Be sure you know what you're doing.
+Apr 27 18:41:24.107 [warn] V3AuthVotingInterval is very low. This may lead to failure to synchronise for a consensus.
+Apr 27 18:41:24.107 [warn] TestingTorNetwork is set. This will make your node almost unusable in the public Tor network, and is therefore only advised if you are building a testing Tor network!
+Apr 27 18:41:24.107 [notice] Opening Socks listener on 127.0.0.1:9011
+Apr 27 18:41:24.107 [notice] Opening OR listener on 0.0.0.0:5000
+Apr 27 18:41:24.000 [warn] Your log may contain sensitive information - you disabled SafeLogging, and you're logging more than "notice". Don't log unless it serves an important reason. Overwrite the log afterwards.
+Apr 27 18:41:24.000 [notice] Not disabling debugger attaching for unprivileged users.
+Apr 27 18:41:24.000 [notice] Parsing GEOIP IPv4 file /usr/share/tor/geoip.
+Apr 27 18:41:24.000 [notice] Parsing GEOIP IPv6 file /usr/share/tor/geoip6.
+Apr 27 18:41:24.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Apr 27 18:41:24.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Apr 27 18:41:24.000 [notice] Your Tor server's identity key fingerprint is 'RS1 ECB7D4913F7B0A9CCBF6C6F2FAF7DCF4C12778E9'
+Apr 27 18:41:24.000 [notice] Bootstrapped 0%: Starting
+Apr 27 18:41:24.000 [notice] Updating address for directory authority RS4 from 192.168.32.61:7000 to 192.168.1.4:7000 based on certificate.
+Apr 27 18:41:24.000 [notice] Bootstrapped 80%: Connecting to the Tor network
+Apr 27 18:41:24.000 [notice] Self-testing indicates your ORPort is reachable from the outside. Excellent. Publishing server descriptor.
+Apr 27 18:41:25.000 [notice] Bootstrapped 85%: Finishing handshake with first hop
+Apr 27 18:41:25.000 [notice] Bootstrapped 90%: Establishing a Tor circuit
+Apr 27 18:41:25.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Apr 27 18:41:25.000 [notice] Bootstrapped 100%: Done
+Apr 27 18:41:26.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 18:41:28.000 [warn] Failed to find node for hop 0 of our path. Discarding this circuit.
+Apr 27 18:42:26.000 [notice] Performing bandwidth self-test...done.
+Apr 27 19:01:34.000 [warn] Rejecting SOCKS request for an IP address family that this listener does not support.
+Apr 27 19:05:24.000 [warn] Rejecting SOCKS request for an IP address family that this listener does not support.
